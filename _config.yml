@@ -261,7 +261,9 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  # bibliography: conf.bib,journal.bib,misc.bib,patents.bib,tr.bib,workshop.bib,under.bib
+  bibliography: conf.bib
+  # bibliography: papers.bib,conf.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -276,6 +278,9 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+  sort_by: year
+  order: descending
 
 badges: # Display different badges for your pulications
   altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
