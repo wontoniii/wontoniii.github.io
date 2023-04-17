@@ -1,13 +1,17 @@
 ---
 layout: page
 title: Research
-permalink: /projects/
-description: A growing collection of your cool projects.
+permalink: /research/
+description: 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Funding, Projects]
 horizontal: false
 ---
+
+**Interests.** My research focuses broadly on leveraging emergent technologies to engineer software systems designed to measure and improve network service performance. Recently, I have given particular attention to the development of methods that bridge state-of-the-art concepts in network systems and measurement together with data science and machine learning applied to network inference.
+
+**Goals and Approach.** My research exploits computing resources available in the network infrastructure to develop network management tools that can profoundly impact how networks operate. A key aspect to my work is a practical approach to advanced research informed by extensive experience converting academic research projects into functional solutions. Throughout my career, I have striven to build software that 1) validates the proposed system designs via real-world rigorous evaluation, 2) that can be verified, reused, and extended by the research community, and 3) that can achieve important broader implications for both ISPs and consumers at large.
 
 <!-- pages/projects.md -->
 <div class="projects">
