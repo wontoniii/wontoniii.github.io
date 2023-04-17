@@ -43,8 +43,10 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-            {%- include news.html %}
+            <h2>Recent news</h2>
+            {%- include main_news.html %}
+            <a href="{{ '/news/' | relative_url }}">Click here for past news</a>
+          <br/><br/>
           {%- endif %}
 
           <!-- Selected papers -->
