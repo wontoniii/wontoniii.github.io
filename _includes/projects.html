@@ -29,10 +29,17 @@
               {%- endif %}
             </div>
             {%- endif %}
+            {%- if project.agencies -%}
+              <div class="tags">
+                {%- for tag in project.agencies -%}
+                <span class="badge agency-badge">{{ tag }}</span>&nbsp;
+                {%- endfor %}
+              </div>
+            {%- endif %}
             {%- if project.tags -%}
               <div class="tags">
                 {%- for tag in project.tags -%}
-                <span class="badge badge-pill badge-primary">{{ tag }}</span>
+                <span class="badge">{{ tag }}</span>&nbsp;
                 {%- endfor %}
               </div>
             {%- endif %}

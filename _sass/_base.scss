@@ -433,6 +433,17 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    .badge {
+      display: inline-block;
+      color: var(--global-card-bg-color) !important;
+      background-color: var(--global-theme-color) !important;
+    }
+    .agency-badge {
+      display: inline-block;
+      color: var(--global-card-bg-color) !important;
+      background-color: darkred !important;
+    }
+    
   }
 
   .card-item {

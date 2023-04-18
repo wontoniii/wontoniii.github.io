@@ -6,7 +6,7 @@ description: "Cost-Aware Data Representation for Machine Learning on Network Tra
 importance: 1
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [sigmetrics, system]
+tags: [sigmetrics, open source]
 ---
 
 # Traffic Refinery: Cost-aware Network Traffic Analysis.
