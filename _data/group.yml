@@ -1,0 +1,12 @@
+- title: Ph.D Students
+  type: list
+  contents:
+    - <b>Saloua Naama:</b> New network systems mechanisms to support Massive Machine Learning. With K. Salamatian. 2021 - now
+    - <b>Mathieu Guglielmino:</b> Extraction automatique de configuration réseau satisfaisant les contraintes client. With S. Monnet. 2021 - now
+    - <b>Youssouph Faye:</b> Distributed Edge Cloud Architecture for Executing AI-Based Applications. With K. Salamatian. 2022 - now
+    - <b>Johann Hugon:</b> Modeling Modern Network Traffic for Automated Machine Learning in Network Systems. With A. Bousson. 2022 - now
+
+- title: Alumni
+  type: list
+  contents:
+    - <b>Razanne Abu-Aisheh.</b> Context-Aware Information Gathering and Processing Towards Supporting Autonomous Systems in Industry 4.0 Scenarios. With T. Watteyne. 2018 - 2022
