@@ -2,7 +2,6 @@
   type: list
   contents:
     - <b>Saloua Naama:</b> New network systems mechanisms to support Massive Machine Learning. With K. Salamatian. 2021 - now
-    - <b>Mathieu Guglielmino:</b> Extraction automatique de configuration réseau satisfaisant les contraintes client. With S. Monnet. 2021 - now
     - <b>Youssouph Faye:</b> Distributed Edge Cloud Architecture for Executing AI-Based Applications. With K. Salamatian. 2022 - now
     - <b>Johann Hugon:</b> Modeling Modern Network Traffic for Automated Machine Learning in Network Systems. With A. Bousson. 2022 - now
 
@@ -10,3 +9,13 @@
   type: list
   contents:
     - <b>Razanne Abu-Aisheh.</b> Context-Aware Information Gathering and Processing Towards Supporting Autonomous Systems in Industry 4.0 Scenarios. With T. Watteyne. 2018 - 2022
+
+- title: Present and Past Interns
+  type: list
+  contents:
+    - <b>Malo Jaffré.</b> M2 ENS Lyon.
+    - <b>Gaetan Nodet.</b> L3 ENS Lyon.
+    - <b>Duncan Bordin.</b> L3 ENS Lyon.
+    - <b>Ayoub Ben Ameur.</b> M2 Nokia Bell Labs
+    - <b>Hakim Ouhida.</b> M1 Université Savoie Mont Blanc
+    - <b>Setareh Nouri.</b> M2 Université Savoie Mont Blanc
