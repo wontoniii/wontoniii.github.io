@@ -25,7 +25,7 @@ I am an Associate Professor (Maître de Conférences) in computer science at [É
 My research focuses broadly on leveraging emergent technologies to engineer software systems designed to measure and improve network
 service performance.
 
-Before joining ENS Lyon, I was a Research Scientist at Nokia Bell Labs as well as a Post-Doc in the  [MiMove](https://mimove.inria.fr/) group at Inria, Paris. I obtained a Ph.D. from [WINLAB](http://www.winlab.rutgers.edu/) at Rutgers University.
+Before joining ENS Lyon, I was a Research Scientist at [Nokia Bell Labs](https://www.bell-labs.com) as well as a Post-Doc at [Inria, Paris](https://mimove.inria.fr/). I obtained a Ph.D. from [WINLAB](http://www.winlab.rutgers.edu/) at [Rutgers University](https://www.rutgers.edu).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
