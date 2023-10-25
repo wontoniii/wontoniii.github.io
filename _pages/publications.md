@@ -17,9 +17,9 @@ nav_order: 1
 {% endfor %}
 </div>
 
-<h2>Under submission</h2>
+<h2>Preprints</h2>
 <div class="publications">
-  {% bibliography -f under %}
+  {% bibliography -f preprints %}
 </div>
 
 <!-- <h2> Demos, Posters, and Tutorials </h2> -->
