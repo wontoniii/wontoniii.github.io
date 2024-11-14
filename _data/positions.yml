@@ -1,4 +1,6 @@
 - title: Open Positions
   type: list
   contents:
-    - None
+    - title: Dynamic model serving for network traffic analysis
+      Description: <a href="https://fbronzino.com/assets/pdf/serving.pdf">URL</a>
+      year: MS Thesis / PhD
