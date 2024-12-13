@@ -2,7 +2,7 @@
   type: list
   contents:
     - <b> Applications of ML/AI to networking.</b> (Postdoc) <br/> 
-    This is an open topic, get in touch for details 
+    <p>This is an open topic</p>
     - <b>Dynamic model serving for network traffic analysis</b> (MS Thesis / PhD) <br/> <a href="https://fbronzino.com/assets/pdf/serving.pdf">URL</a> 
     - <b>Generative AI Techniques for Network Management</b> (MS Thesis / PhD) <br/> <a href="https://fbronzino.com/assets/pdf/generative.pdf">URL</a> 
     - <b> Global Tracking Transfer Protocol.</b> (MS Thesis / PhD) <br/> <a href="https://fbronzino.com/assets/pdf/gttp.pdf">URL</a> 
