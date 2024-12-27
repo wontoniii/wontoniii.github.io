@@ -9,9 +9,19 @@ display_categories: [Funding, Projects]
 horizontal: false
 ---
 
-**Interests.** My research focuses broadly on leveraging emergent technologies to engineer software systems designed to measure and improve network service performance. Recently, I have given particular attention to the development of methods that bridge state-of-the-art concepts in network systems and measurement together with data science and machine learning applied to network inference.
+**Interests.** My research broadly centers on leveraging emergent technologies
+to engineer software systems designed to measure and improve network service
+performance. My work particularly focuses on the development of methods that
+integrate state-of-the-art concepts in network systems and measurement with data
+science and machine learning techniques.
 
-**Goals and Approach.** My research exploits computing resources available in the network infrastructure to develop network management tools that can profoundly impact how networks operate. A key aspect to my work is a practical approach to advanced research informed by extensive experience converting academic research projects into functional solutions. Throughout my career, I have striven to build software that 1) validates the proposed system designs via real-world rigorous evaluation, 2) that can be verified, reused, and extended by the research community, and 3) that can achieve important broader implications for both ISPs and consumers at large.
+**Goals and Approach.** I aim to utilize the increasing availability of computing resources within network infrastructure to create impactful network management tools that transform how networks operate. A cornerstone of my research is a practical approach to advanced challenges that emphasizes three key objectives:
+
+1.	Validation: Designing systems rigorously evaluated in real-world environments.
+2.	Reusability: Ensuring that tools and solutions are verifiable, reusable, and extensible by the research community.
+3.	Impact: Creating broader benefits for both ISPs and end-users.
+
+**Code and Datasets.** I strongly believe that building systems is one of the most effective ways to to validate research hypotheses. To this end, my work strives to design and open source tools and collect unique datasets tailored to network management and measurement tasks. 
 
 <!-- pages/projects.md -->
 <div class="projects">
