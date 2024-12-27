@@ -9,26 +9,27 @@ category: Projects
 tags: [CATO, Traffic Refinery, open source]
 ---
 
-# CATO: End-to-end Optimization of ML Traffic Analysis Pipelines
+## CATO: End-to-end Optimization of ML Traffic Analysis Pipelines
 
-*Abstract.* Machine learning has shown tremendous potential for improving the capabilities of network traffic analysis applications, often outperforming simpler rule-based heuristics.
-However, ML-based solutions remain difficult to deploy in
-practice. Many existing approaches only optimize the predictive performance of their models, overlooking the practical
-challenges of running them against network traffic in real
-time. This is especially problematic in the domain of traffic
-analysis, where the efficiency of the serving pipeline is a
-critical factor in determining the usability of a model. In this
-work, we introduce CATO, a framework that addresses this
-problem by jointly optimizing the predictive performance
-and the associated systems costs of the serving pipeline.
-CATO leverages recent advances in multi-objective Bayesian
-optimization to efficiently identify Pareto-optimal configurations, and automatically compiles end-to-end optimized
-serving pipelines that can be deployed in real networks. Our
-evaluations show that compared to popular feature optimization techniques, CATO can provide up to 3600× lower
-inference latency and 3.7×higher zero-loss throughput while
-simultaneously achieving better model performance.
+*Abstract.* Machine learning has shown tremendous potential for improving the
+capabilities of network traffic analysis applications, often outperforming
+simpler rule-based heuristics. However, ML-based solutions remain difficult to
+deploy in practice. Many existing approaches only optimize the predictive
+performance of their models, overlooking the practical challenges of running
+them against network traffic in real time. This is especially problematic in the
+domain of traffic analysis, where the efficiency of the serving pipeline is a
+critical factor in determining the usability of a model. In this work, we
+introduce CATO, a framework that addresses this problem by jointly optimizing
+the predictive performance and the associated systems costs of the serving
+pipeline. CATO leverages recent advances in multi-objective Bayesian
+optimization to efficiently identify Pareto-optimal configurations, and
+automatically compiles end-to-end optimized serving pipelines that can be
+deployed in real networks. Our evaluations show that compared to popular feature
+optimization techniques, CATO can provide up to 3600× lower inference latency
+and 3.7×higher zero-loss throughput while simultaneously achieving better model
+performance.
 
-## Resources
+### Resources
 The research paper was accepted to USENIX NSDI 2025.
 
 ### Citation bibtex
@@ -41,7 +42,7 @@ The research paper was accepted to USENIX NSDI 2025.
 }
 ```
 
-# Traffic Refinery: Cost-aware Network Traffic Analysis.
+## Traffic Refinery: Cost-aware Network Traffic Analysis.
 
 Relationships between systems costs and model performance would ideally inform
 machine learning pipelines during design; yet, most existing network traffic
@@ -51,7 +52,7 @@ designed to offer **flexibly extensible network data representations**, the
 ability to assess the **systems-related costs** of these representations, and
 the **effects of different representations on model performance**. 
 
-## System Overview
+### System Overview
 ![Traffic Refinery System Overview Diagram](/assets/img/system.png){:align="center" height="65%" width="65%"}
 
 The figure shows an overview of the system architecture. `Traffic Refinery` is
@@ -67,7 +68,7 @@ built-in benchmarking tools. The system has three components:
    features and statistics about each traffic flow and stores higher-level
    features concerning the applications of interest for later processing
 
-## tl;dr: What Can You Do with Traffic Refinery?
+### tl;dr: What Can You Do with Traffic Refinery?
 *  Traffic (i.e., flows) are classified as "services" using either DNS domains
    or IP prefixes that the user can provide. *Note: DNS is increasingly
    encrypted, making this method less reliable. An area of ongoing research is
@@ -78,7 +79,7 @@ built-in benchmarking tools. The system has three components:
    explore tradeoffs between ML model performance and feature costs in their
    particular environment.
 
-## Why is Traffic Refinery Necessary?
+### Why is Traffic Refinery Necessary?
 Network management increasingly relies on machine learning to make predictions
 about performance and security from network traffic. Often, the representation
 of the traffic is as important as the choice of the model. The features that the
@@ -120,7 +121,7 @@ evaluation of both the conventional notions of machine learning performance
 (e.g., model accuracy) and the systems-level costs of different representations
 of network traffic. 
 
-## Resources
+### Resources
 The research paper behind `Traffic Refinery` was accepted to SIGMETRICS 2022,
 and published in ACM POMACS in December 2021.
 

@@ -9,7 +9,7 @@ category: Projects
 tags: [NetDiffusion, open source]
 ---
 
-# NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation
+## NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation
 
 *Abstract.* Datasets of labeled network traces are essential for a multitude of machine
 	learning (ML) tasks in networking, yet their availability is hindered by
