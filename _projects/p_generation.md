@@ -3,7 +3,7 @@ layout: page
 title: Synthetic Traffic Generation
 description: ""
 # img: assets/img/tr.png
-importance: 996
+importance: 995
 category: Projects
 # redirect: https://traffic-refinery.github.io
 tags: [NetDiffusion, open source]
@@ -36,7 +36,7 @@ tags: [NetDiffusion, open source]
 	and support a myriad of network tasks,
 	suggesting that NetDiffusion can serve a broader spectrum of network analysis and testing tasks, extending beyond ML-centric applications.
 
-## Resources
+### Resources
 Source code and results: [https://github.com/noise-lab/NetDiffusion_Generator](https://github.com/noise-lab/NetDiffusion_Generator)
 
 ### Citation bibtex

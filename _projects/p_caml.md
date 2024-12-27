@@ -3,7 +3,7 @@ layout: page
 title: Cost-Aware ML on Network Traffic
 description: ""
 # img: assets/img/tr.png
-importance: 995
+importance: 994
 category: Projects
 # redirect: https://traffic-refinery.github.io
 tags: [CATO, Traffic Refinery, open source]
