@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Video Analytics in Heterogeneous Architectures
+title: Live Video Analytics
 description: ""
 # img: assets/img/tr.png
 importance: 996
