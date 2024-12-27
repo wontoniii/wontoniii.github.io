@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Synthetic Generation
+title: Synthetic Traffic Generation
 description: ""
 # img: assets/img/tr.png
 importance: 996
