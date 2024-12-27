@@ -1,12 +1,12 @@
 ---
 layout: page
-title: NetDiffusion
-description: "Network Data Augmentation Through Protocol-Constrained Traffic Generation"
+title: Synthetic Generation
+description: ""
 # img: assets/img/tr.png
-importance: 1
+importance: 996
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [sigmetrics, open source]
+tags: [NetDiffusion, open source]
 ---
 
 # NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation

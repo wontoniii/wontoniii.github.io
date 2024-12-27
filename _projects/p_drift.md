@@ -1,12 +1,12 @@
 ---
 layout: page
-title: LEAF
-description: "Navigating Concept Drift in Cellular Networks"
+title: Concept Drift in Networks
+description: ""
 # img: assets/img/tr.png
-importance: 1
+importance: 997
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [conext, dataset]
+tags: [LEAF, dataset]
 ---
 
 # LEAF: Navigating Concept Drift in Cellular Networks

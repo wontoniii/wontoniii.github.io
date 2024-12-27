@@ -1,13 +1,45 @@
 ---
 layout: page
-title: Traffic Refinery
-description: "Cost-Aware Data Representation for Machine Learning on Network Traffic"
+title: ost-Aware Machine Learning on Network Traffic
+description: ""
 # img: assets/img/tr.png
-importance: 1
+importance: 995
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [sigmetrics, open source]
+tags: [CATO, Traffic Refinery, open source]
 ---
+
+# CATO: End-to-end Optimization of ML Traffic Analysis Pipelines
+
+*Abstract.* Machine learning has shown tremendous potential for improving the capabilities of network traffic analysis applications, often outperforming simpler rule-based heuristics.
+However, ML-based solutions remain difficult to deploy in
+practice. Many existing approaches only optimize the predictive performance of their models, overlooking the practical
+challenges of running them against network traffic in real
+time. This is especially problematic in the domain of traffic
+analysis, where the efficiency of the serving pipeline is a
+critical factor in determining the usability of a model. In this
+work, we introduce CATO, a framework that addresses this
+problem by jointly optimizing the predictive performance
+and the associated systems costs of the serving pipeline.
+CATO leverages recent advances in multi-objective Bayesian
+optimization to efficiently identify Pareto-optimal configurations, and automatically compiles end-to-end optimized
+serving pipelines that can be deployed in real networks. Our
+evaluations show that compared to popular feature optimization techniques, CATO can provide up to 3600× lower
+inference latency and 3.7×higher zero-loss throughput while
+simultaneously achieving better model performance.
+
+## Resources
+The research paper was accepted to USENIX NSDI 2025.
+
+### Citation bibtex
+```
+@article{wan2025cato,
+  title={CATO: End-to-end Optimization of ML Traffic Analysis Pipelines},
+  author={Wan, Gerry and Liu, Shinan and Bronzino, Francesco and Feamster, Nick and Durumeric, Zakir},
+  journal={USENIX Symposium on Networked Systems Design and Implementation},
+  year={2025}
+}
+```
 
 # Traffic Refinery: Cost-aware Network Traffic Analysis.
 
