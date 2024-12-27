@@ -5,7 +5,7 @@ description: ""
 img: 
 importance: 1000
 category: Projects
-tags: [open source]
+tags: [ATLAS, open source]
 ---
 
 ## CARA: Connectivity-Aware Relay Algorithm for Multi-Robot Expeditions
