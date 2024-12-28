@@ -11,17 +11,23 @@ horizontal: false
 
 **Interests.** My research broadly centers on leveraging emergent technologies
 to engineer software systems designed to measure and improve network service
-performance. My work particularly focuses on the development of methods that
-integrate state-of-the-art concepts in network systems and measurement with data
-science and machine learning techniques.
+performance. Overall, I aim to utilize the increasing availability of computing
+resources within network infrastructure to create impactful network management
+tools that transform how networks operate. My work particularly focuses on the
+development of methods that integrate state-of-the-art concepts in network
+systems and measurement with data science and machine learning techniques. 
 
-**Goals and Approach.** I aim to utilize the increasing availability of computing resources within network infrastructure to create impactful network management tools that transform how networks operate. A cornerstone of my research is a practical approach to advanced challenges that emphasizes three key objectives:
+**Approach.** I strongly believe that building systems is one of the most
+effective ways to validate research hypotheses. To this end, my work strives
+to design and open source tools and collect unique datasets tailored to network
+management and measurement tasks. Thus, a cornerstone of my research is a
+practical approach to advanced challenges that emphasizes three key objectives:
 
-1.	Validation: Designing systems rigorously evaluated in real-world environments.
-2.	Reusability: Ensuring that tools and solutions are verifiable, reusable, and extensible by the research community.
-3.	Impact: Creating broader benefits for both ISPs and end-users.
-
-**Code and Datasets.** I strongly believe that building systems is one of the most effective ways to to validate research hypotheses. To this end, my work strives to design and open source tools and collect unique datasets tailored to network management and measurement tasks. 
+1.	*Validation*: Designing systems rigorously evaluated in real-world
+environments. 
+2.	*Reusability*: Ensuring that tools and solutions are verifiable, reusable, and
+extensible by the research community. 
+3.	*Impact*: Creating broader benefits for both ISPs and end-users.
 
 <!-- pages/projects.md -->
 <div class="projects">
