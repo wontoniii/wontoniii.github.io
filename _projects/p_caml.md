@@ -1,13 +1,25 @@
 ---
 layout: page
-title: Cost-Aware ML on Network Traffic
+title: Cost-Aware ML on Networks
 description: ""
 # img: assets/img/tr.png
 importance: 994
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [CATO, Traffic Refinery, open source]
+tags: [CATO, Traffic Refinery, open source, Sigmetrics, NSDI]
 ---
+
+Network management frequently utilizes machine learning to predict network
+performance and security based on traffic analysis. In such tasks, the
+representation of traffic data is as critical as the choice of the machine
+learning model. The features used by the model and their representations
+significantly impact the model’s accuracy and determine its feasibility and
+deployment practicality. Consequently, designing and evaluating these models
+necessitates considering not only their accuracy but also the system costs
+involved in deploying them within an operational network. Our work focuses on
+developing systems-driven approaches to design and train machine learning models
+that balance the trade-off between feature extraction costs and model accuracy.
+
 
 ## CATO: End-to-end Optimization of ML Traffic Analysis Pipelines
 
@@ -122,27 +134,21 @@ evaluation of both the conventional notions of machine learning performance
 of network traffic. 
 
 ### Resources
-The research paper behind `Traffic Refinery` was accepted to SIGMETRICS 2022,
+The research paper behind `Traffic Refinery` was accepted to ACM SIGMETRICS 2022,
 and published in ACM POMACS in December 2021.
 
 You can access the source code of the project as well as detailed documentation at [https://traffic-refinery.github.io](https://traffic-refinery.github.io)
 
 ### Citation bibtex
 ```
-@article{10.1145/3491052,
-    author = {Bronzino, Francesco and Schmitt, Paul and Ayoubi, Sara and Kim, Hyojoon and Teixeira, Renata and Feamster, Nick},
-    title = {Traffic Refinery: Cost-Aware Data Representation for Machine Learning on Network Traffic},
-    year = {2021},
-    issue_date = {December 2021},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    volume = {5},
-    number = {3},
-    url = {https://doi.org/10.1145/3491052},
-    doi = {10.1145/3491052},
-    journal = {Proc. ACM Meas. Anal. Comput. Syst.},
-    month = {dec},
-    articleno = {40},
-    numpages = {24}
+@article{bronzino2021traffic,
+  title={Traffic refinery: Cost-aware data representation for machine learning on network traffic},
+  author={Bronzino, Francesco and Schmitt, Paul and Ayoubi, Sara and Kim, Hyojoon and Teixeira, Renata and Feamster, Nick},
+  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume={5},
+  number={3},
+  pages={1--24},
+  year={2021},
+  publisher={ACM New York, NY, USA}
 }
 ```

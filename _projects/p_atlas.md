@@ -3,7 +3,7 @@ layout: page
 title: Robotic Swarm Cooperation
 description: ""
 img: 
-importance: 1000
+importance: 1001
 category: Projects
 tags: [ATLAS, open source]
 ---

@@ -3,9 +3,9 @@ layout: page
 title: Video QoE Inference
 description: ""
 img: 
-importance: 998
+importance: 999
 category: Projects
-tags: [dataset]
+tags: [Inference, dataset, Sigmetrics]
 ---
 
 We developed a system that accurately infers video streaming quality metrics in real time, such as startup delay or video resolution, by using just a handful of features extracted from passive traffic measurement. Network Microscope passively collects a corpus of network features about the traffic flows of interest in the network and directs those to a real-time analytics framework that can perform more complex inference tasks. Network Microscope enables network operators to determine degradations in application quality as they happen, even when the traffic is encrypted.

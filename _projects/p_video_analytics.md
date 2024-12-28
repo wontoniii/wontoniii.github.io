@@ -3,11 +3,24 @@ layout: page
 title: Live Video Analytics
 description: ""
 # img: assets/img/tr.png
-importance: 996
+importance: 997
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [VideoJam, OVIDA, open source]
+tags: [VideoJam, OVIDA, open source, SEC]
 ---
+
+We tackle the challenge of executing diverse machine learning pipelines on
+heterogeneous computing resources at the network edge. A compelling example of
+this challenge is live video analytics, which has emerged as a key network
+application of the future, driven by advances in neural network-based video
+processing and the rise of edge computing. Existing solutions, however,
+predominantly target fixed cameras, whose video streams follow a predictable
+path through a hierarchical network of clusters to execute vision pipelines.
+With the growing accessibility and widespread adoption of mobile cameras and
+devices, it is increasingly essential to incorporate these dynamic video feeds
+into analytics architectures. Our work focuses on integrating mobile devices
+into analytics platforms by developing innovative system solutions that address
+the unique and dynamic nature of these devices.
 
 ## VideoJam: Self-Balancing Architecture for Live Video Analytics
 
