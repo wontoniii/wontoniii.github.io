@@ -11,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>name.lastname@ens-lyon.fr</p>
-    <p>Office GN1.354</p>
+    <p>Office M7.303</p>
     <p>46 Allée d'Italie</p>
     <p>69003 Lyon, France</p>
 
