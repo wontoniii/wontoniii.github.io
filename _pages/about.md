@@ -20,8 +20,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Associate Professor (Maître de Conférences) in computer science at
-[École Normale Supérieure de Lyon](http://ens-lyon.fr)  and I am a member of
+I am an Associate Professor (Maître de Conférences HDR) in computer science at
+[École Normale Supérieure de Lyon](http://ens-lyon.fr) and I am a member of
 [LIP](http://www.ens-lyon.fr/LIP/). I'm also a Junior fellow of the [Institut
 universitaire de France](https://www.iufrance.fr) (2025-2030), as well as the
 co-founder and CTO of [NetMicroscope](https://netmicroscope.com).
