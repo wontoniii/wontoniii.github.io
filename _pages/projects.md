@@ -5,7 +5,7 @@ permalink: /research/
 description: 
 nav: true
 nav_order: 2
-display_categories: [Funding, Projects]
+display_categories: [Funding, Projects, Software and Datasets]
 horizontal: false
 ---
 
