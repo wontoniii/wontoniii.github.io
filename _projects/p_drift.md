@@ -6,7 +6,7 @@ description: ""
 importance: 998
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [LEAF, dataset, CoNEXT]
+tags: [LEAF, CoNEXT]
 ---
 
 An important step in deploying machine learning models for networking tasks in

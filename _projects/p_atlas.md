@@ -5,7 +5,7 @@ description: ""
 img: 
 importance: 1001
 category: Projects
-tags: [ATLAS, open source]
+tags: [ATLAS]
 ---
 
 Industry 4.0 environments are characterized by the coexistence of a diverse set

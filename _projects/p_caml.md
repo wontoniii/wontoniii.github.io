@@ -6,7 +6,7 @@ description: ""
 importance: 994
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [CATO, Traffic Refinery, open source, Sigmetrics, NSDI]
+tags: [JITI, CATO, Traffic Refinery, CoNEXT, Sigmetrics, NSDI]
 ---
 
 Network management frequently utilizes machine learning to predict network
@@ -20,6 +20,38 @@ involved in deploying them within an operational network. Our work focuses on
 developing systems-driven approaches to design and train machine learning models
 that balance the trade-off between feature extraction costs and model accuracy.
 
+## JITI: Dynamic Model Serving for Just-in-Time Traffic Inference
+
+*Abstract.* Accurate and efficient inference on network traffic through machine learning models is important for many
+management tasks, from traffic prioritization to anomaly detection. Existing ML inference pipelines differ
+primarily in their feature design: those based on summary flow statistics (e.g., packet sizes, inter-arrival times)
+are lightweight and efficient, though they may be less accurate for fine-grained classification, whereas pipelines
+that consume features directly from raw packet capture data can achieve higher accuracy but at significantly
+greater computational and resource cost. In this paper, we develop Just-in-Time Traffic Inference (JITI), a model
+serving system to support fast and accurate network traffic inference in raw packet-capture-based machine
+learning inference pipelines. Offline, JITI builds a curated pool of diverse trained models with varied feature and
+performance requirements. Online, JITI responds to traffic fluctuations via an adaptive scheduler that selects
+the model from the pool that offers the highest accuracy-to-efficiency ratio within system resource limits,
+thereby providing inference accuracy comparable to the more complex and resource-intensive packet-capture-
+based methods, with minimal efficiency compromise. Using traffic application inference as an example task,
+our evaluation shows that JITI improves inference performance by 18% over flow-statistics-based methods;
+when benchmarked against state-of-the-art packet-capture-based methods, JITI results in a worst-case drop in
+F1-Score of only 12.3%, while reducing the average inference decision time by∼127x.
+
+### Resources
+The research paper was accepted to ACM CoNEXT 2025.
+
+### Citation bibtex
+```
+@article{jiang2025jiti,
+  title={JITI: Dynamic Model Serving for Just-in-Time Traffic Inference},
+  author={Jiang, Xi and Liu, Shinan and Naama, Saloua and Bronzino, Francesco and Schmitt, Paul and Feamster, Nick},
+  journal={Proceedings of the ACM on Networking},
+  volume={3},
+  number={CoNEXT4},
+  year={2025}
+}
+```
 
 ## CATO: End-to-end Optimization of ML Traffic Analysis Pipelines
 

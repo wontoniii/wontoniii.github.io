@@ -6,7 +6,7 @@ description: ""
 importance: 996
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [NetDiffusion, open source, Sigmetrics]
+tags: [NetSSM, NetDiffusion, CoNEXT, Sigmetrics]
 ---
 
 Synthetic traces, primarily emphasizing certain flow statistics or packet
@@ -16,6 +16,37 @@ network traffic hinder both their ML performance and broader applicability in
 conventional network analyses. In our research, we tap into the promising
 capabilities of generative models to enhance synthetic network traffic
 production. 
+
+## NetSSM: Multi-Flow and State-Aware Network Trace Generation using State-Space Models
+
+*Abstract.* Access to raw network traffic data is essential for many computer networking tasks, from traffic modeling
+to performance evaluation. Unfortunately, this data is scarce due to high collection costs and governance
+rules. Previous efforts explore this challenge by generating synthetic network data, but fail to reliably han-
+dle multi-ow sessions, struggle to reason about stateful communication in moderate to long-duration net-
+work sessions, and lack robust evaluations tied to real-world utility. We propose a new method based on
+state-space models called NetSSM that generates raw network traffic at the packet-level granularity. Our
+approach captures interactions between multiple, interleaved ows – an objective unexplored in prior work
+– and effectively reasons about ow-state in sessions to capture traffic characteristics. NetSSM accomplishes
+this by training with a context window more than 8× longer, and produces traces up to 78× longer than exist-
+ing transformer-based raw packet generators. Evaluation results show that NetSSM generates high-fidelity
+traces that outperform prior efforts in existing benchmarks. We also nd that NetSSM’s traces have high
+semantic similarity to real network data regarding compliance with standard protocol requirements and ow
+and session-level traffic characteristics.
+
+### Resources
+Source code and results: [https://github.com/noise-lab/netssm](https://github.com/noise-lab/netssm)
+
+### Citation bibtex
+```
+@article{chu2026netssm,
+  title={NetSSM: Multi-Flow and State-Aware Network Trace Generation using State-Space Models},
+  author={Chu, Andrew and Jiang, Xi and Liu, Shinan and Nitin Bhagoji, Arjun  and Bronzino, Francesco and Schmitt, Paul and Feamster, Nick},
+  journal={Proceedings of the ACM on Networking},
+  volume={1},
+  number={CoNEXT5},
+  year={2026}
+}
+```
 
 ## NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation
 

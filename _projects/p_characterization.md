@@ -6,7 +6,7 @@ description: ""
 importance: 995
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [Data interpolation, MPR architectures, open source, Sigmetrics, PAM]
+tags: [Data interpolation, MPR architectures, Sigmetrics, PAM]
 ---
 
 A reliable Internet connection is no longer a luxury but a fundamental

@@ -5,7 +5,7 @@ description: ""
 img: 
 importance: 1001
 category: Projects
-tags: [Service traceroute, open source]
+tags: [Service traceroute]
 ---
 
 Service traceroute is a tool that allows the discovery of individual application

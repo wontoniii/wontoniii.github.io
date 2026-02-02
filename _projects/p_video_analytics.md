@@ -6,7 +6,7 @@ description: ""
 importance: 997
 category: Projects
 # redirect: https://traffic-refinery.github.io
-tags: [VideoJam, OVIDA, open source, SEC]
+tags: [VideoJam, OVIDA, SEC]
 ---
 
 We tackle the challenge of executing diverse machine learning pipelines on
