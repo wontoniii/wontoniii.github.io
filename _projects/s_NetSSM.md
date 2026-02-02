@@ -4,7 +4,7 @@ title: NetSSM
 description: ""
 # img: assets/img/tr.png
 importance: 900
-category: Projects
+category: Software and Datasets
 redirect: https://github.com/noise-lab/netssm
 tags: [GitHub]
 ---
