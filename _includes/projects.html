@@ -43,6 +43,13 @@
                 {%- endfor %}
               </div>
             {%- endif %}
+            {%- if project.software -%}
+              <div class="tags">
+                {%- for tag in project.software -%}
+                <span class="badge software-badge">{{ tag }}</span>&nbsp;
+                {%- endfor %}
+              </div>
+            {%- endif %}
           </div>
         </div>
       </div>
