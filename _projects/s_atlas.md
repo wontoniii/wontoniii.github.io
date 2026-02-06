@@ -1,10 +1,10 @@
 ---
 layout: page
-title: NetSSM
+title: Atlas
 description: ""
 # img: assets/img/tr.png
-importance: 898
+importance: 905
 category: Software and Datasets
-redirect: https://github.com/noise-lab/netssm
+redirect: https://github.com/openwsn-berkeley/Atlas
 software: [GitHub]
 ---

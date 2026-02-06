@@ -1,10 +1,10 @@
 ---
 layout: page
-title: NetSSM
+title: Video QoE Collection
 description: ""
 # img: assets/img/tr.png
-importance: 898
+importance: 904
 category: Software and Datasets
-redirect: https://github.com/noise-lab/netssm
+redirect: https://github.com/inria-muse/video_collection
 software: [GitHub]
 ---

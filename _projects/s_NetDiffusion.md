@@ -1,10 +1,10 @@
 ---
 layout: page
-title: NetSSM
+title: NetDiffusion
 description: ""
 # img: assets/img/tr.png
-importance: 898
+importance: 901
 category: Software and Datasets
-redirect: https://github.com/noise-lab/netssm
+redirect: https://github.com/noise-lab/NetDiffusion
 software: [GitHub]
 ---
