@@ -5,7 +5,7 @@ description: "Generative AI for Network Digital Twins"
 # img: assets/img/ANR-logo.jpg
 importance: 95
 category: Funding
-redirect: anr-gen-t.github.io
+redirect: https://anr-gen-t.github.io
 agencies: [ANR]
 ---
 
