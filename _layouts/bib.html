@@ -118,11 +118,7 @@
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
-        {%- if entry.month -%}
-          {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
-        {%- endif -%}
-        {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entrymonth != "" -%}, {%- endif -%}{{ entrymonth }}{%- endcapture -%}
+        {%- capture periodical -%}{{ entrytype }}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
         </div>
